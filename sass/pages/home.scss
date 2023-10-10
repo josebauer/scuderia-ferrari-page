@@ -14,7 +14,7 @@
 }
 
 .title-padding {
-  padding-top: 200px;
+  padding-top: 300px;
 }
 
 .short-title {
@@ -25,4 +25,15 @@
 .medium-title {
   width: 650px;
   margin-bottom: -25px;
+}
+
+@media screen and (max-width: 770px) {
+  .title-padding {
+    padding-top: 120px;
+  }
+
+  .short-title, 
+  .medium-title {
+    width: auto;
+  }
 }

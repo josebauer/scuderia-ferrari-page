@@ -26,9 +26,7 @@
 }
 
 .logo-pc {
-  width: 240px;
-  margin-left: -10px;
-  margin-right: 40px;
+  width: 200px;
 }
 
 .text-shadow {
@@ -62,5 +60,17 @@
 
   .copy {
     color: $copy-color;
+  }
+}
+
+// Media Query
+
+@media screen and (max-width: 425px) {
+  .logo-pc {
+    width: 120px;
+  }
+
+  .footer {
+    font-size: 10px;
   }
 }
