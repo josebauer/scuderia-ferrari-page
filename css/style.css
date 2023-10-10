@@ -7,6 +7,9 @@
   font-size: 12px;
   font-weight: bold;
 }
+.header #nav-item-1:hover, .header #nav-item-2:hover {
+  color: #b9b9b9;
+}
 
 .container-00 {
   min-height: 100vh;
@@ -23,7 +26,35 @@
 .logo-pc {
   width: 240px;
   margin-left: -10px;
-  margin-right: 20px;
+  margin-right: 40px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px #000, 0 0 1em #E10600, 0 0 0.2em #E10600;
+}
+
+.know-more {
+  padding: 15px 35px;
+}
+
+.footer {
+  background-color: #000;
+  height: 15vh;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copy {
+  color: #555252;
 }
 
 .container-00.container-01 {
@@ -37,6 +68,20 @@
 }
 .container-00.container-04 {
   background-image: url("../../images/home/museum-04.jpg");
+}
+
+.title-padding {
+  padding-top: 200px;
+}
+
+.short-title {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.medium-title {
+  width: 650px;
+  margin-bottom: -25px;
 }
 
 /*# sourceMappingURL=style.css.map */
