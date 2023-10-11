@@ -2,12 +2,15 @@
   &.container-01 {
     background-image: url('../../images/home/hq-01.jpg');
   }
+
   &.container-02 {
     background-image: url('../../images/home/drivers-02.jpg');
   }
+
   &.container-03 {
     background-image: url('../../images/home/car-03.webp');
   }
+
   &.container-04 {
     background-image: url('../../images/home/museum-04.jpg');
   }
@@ -19,7 +22,6 @@
 
 .short-title {
   width: 550px;
-  margin-bottom: -25px;
 }
 
 .medium-title {
@@ -27,13 +29,45 @@
   margin-bottom: -25px;
 }
 
-@media screen and (max-width: 770px) {
-  .title-padding {
-    padding-top: 120px;
+.test {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+// Media Query
+
+@media screen and (max-width: 375px) {
+  .test {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .short-title {
+    font-size: 16px;
   }
 
-  .short-title, 
+  .medium-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .title-padding {
+    padding-top: 200px;
+  }
+
+  .short-title,
   .medium-title {
     width: auto;
+  }
+
+  .container-00 {
+    &.container-01 {
+      background-image: url('../../images/home/hq-01-small.jpg');
+    }
+    &.container-03 {
+      background-image: url('../../images/home/car-03-small.jpg');
+    }
   }
 }

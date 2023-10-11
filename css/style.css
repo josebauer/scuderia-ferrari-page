@@ -3,11 +3,16 @@
   color: white;
 }
 
+div {
+  scroll-margin-top: 5rem;
+}
+
 .header {
   font-size: 12px;
   font-weight: bold;
 }
-.header #nav-item-1:hover, .header #nav-item-2:hover {
+.header #nav-item-1:hover,
+.header #nav-item-2:hover {
   color: #b9b9b9;
 }
 
@@ -23,12 +28,8 @@
   width: 90px;
 }
 
-.logo-pc {
+.ferrari-logo {
   width: 200px;
-}
-
-.text-shadow {
-  text-shadow: 1px 1px 2px #000, 0 0 1em #E10600, 0 0 0.2em #E10600;
 }
 
 .know-more {
@@ -56,11 +57,22 @@
 }
 
 @media screen and (max-width: 425px) {
-  .logo-pc {
+  .ferrari-logo {
     width: 120px;
   }
   .footer {
     font-size: 10px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .ferrari-logo,
+  .nav-link {
+    padding-left: 15px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 992px) {
+  #nav-item-1 {
+    padding-top: 15px;
   }
 }
 .container-00.container-01 {
@@ -82,7 +94,6 @@
 
 .short-title {
   width: 550px;
-  margin-bottom: -25px;
 }
 
 .medium-title {
@@ -90,13 +101,37 @@
   margin-bottom: -25px;
 }
 
+.test {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .test {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .short-title {
+    font-size: 16px;
+  }
+  .medium-title {
+    font-size: 24px;
+  }
+}
 @media screen and (max-width: 770px) {
   .title-padding {
-    padding-top: 120px;
+    padding-top: 200px;
   }
   .short-title,
   .medium-title {
     width: auto;
+  }
+  .container-00.container-01 {
+    background-image: url("../../images/home/hq-01-small.jpg");
+  }
+  .container-00.container-03 {
+    background-image: url("../../images/home/car-03-small.jpg");
   }
 }
 
