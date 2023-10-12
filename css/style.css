@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
 * {
-  color: white;
+  color: #FFF;
 }
 
 div {
@@ -34,6 +34,7 @@ div {
 
 .know-more {
   padding: 15px 35px;
+  border: 2px solid #FFF;
 }
 
 .footer {
@@ -54,6 +55,15 @@ div {
 }
 .footer .copy {
   color: #555252;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2c2c2c;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 425px) {
@@ -98,10 +108,10 @@ div {
 
 .medium-title {
   width: 650px;
-  margin-bottom: -25px;
+  margin-bottom: 10px;
 }
 
-.test {
+.background {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
