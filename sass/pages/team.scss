@@ -57,9 +57,10 @@
 }
 
 .title-ferrari {
-  font-size: 90px;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 514;
+  font-size: 80px;
+  font-family: "Uniwars W00 Regular", sans-serif;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .title-content {
@@ -107,7 +108,7 @@
 
 @media screen and (max-width: 840px) {
   .title-ferrari {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .numbers {  
@@ -141,7 +142,7 @@
 
 @media screen and (max-width: 585px) {
   .title-ferrari {
-    font-size: 60px;
+    font-size: 45px;
   }
   .team-historic {
     width: auto;
@@ -151,7 +152,7 @@
 
 @media screen and (max-width: 375px) {
   .title-ferrari {
-    font-size: 50px;
+    font-size: 34px;
   }
 
   .subtitle-ferrari {
