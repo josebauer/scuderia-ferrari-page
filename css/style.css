@@ -149,7 +149,7 @@ div {
   background-image: url("../../images/team/ferrari-01.avif");
 }
 .container-00.container-06 {
-  background-image: url("../../images/team/ferrari-02.avif");
+  background-image: url("../../images/team/enzo-ferari.jpg");
 }
 .container-00.carousel-01 {
   background-image: url("../../images/team/charles-leclerc.webp");
@@ -218,7 +218,7 @@ div {
   display: grid;
   height: 90vh;
   align-items: center;
-  justify-content: left;
+  justify-content: right;
 }
 
 .team-historic {
@@ -276,6 +276,21 @@ div {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+}
+.container-00.container-08 {
+  background-image: url("../../images/car/sf23-01.jpg");
+}
+.container-00.container-09 {
+  background-image: url("../../images/car/sf23-02.jpg");
+}
+.container-00.container-10 {
+  background-image: url("../../images/car/sf23-03.jpg");
+}
+.container-00.container-11 {
+  background-image: url("../../images/car/sf23-04.webp");
+}
+.container-00.container-12 {
+  background-image: url("../../images/car/sf23-05.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */
