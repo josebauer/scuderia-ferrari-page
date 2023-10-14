@@ -29,15 +29,10 @@
   margin-bottom: 10px;
 }
 
-.background {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-}
-
 // Media Query
 
 @media screen and (max-width: 375px) {
-  .test {
+  .small-align-text {
     text-align: center;
   }
 }

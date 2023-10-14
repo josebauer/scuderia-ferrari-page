@@ -7,7 +7,7 @@
   <title>Scuderia Ferrari - A Equipe</title>
 
   <!-- CSS Bootstrap -->
-  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../images/favicon-ferrari.png" type="image/x-icon">
@@ -18,7 +18,7 @@
 
 <body>
   <!-- Container 5 -->
-  <div class="container-fluid container-00 container-05">
+  <div class="container-00 container-05">
     <div class="container">
       <!-- Header / Navbar -->
       <header class="header">
@@ -47,14 +47,15 @@
       </header>
     </div>
 
-    <div class="container text-center title-content">
-      <p class="h1 title-ferrari">SCUDERIA FERRARI</p>
-
-      <p class="h5 subtitle-ferrari">A EQUIPE MAIS ANTIGA E A MAIOR VENCEDORA DA F1</p>
+    <div class="container-fluid background">
+      <div class="container text-center title-content d-flex flex-column justify-content-center">
+        <p class="h1 title-ferrari">SCUDERIA FERRARI</p>
+        <p class="h5 subtitle-ferrari">A EQUIPE MAIS ANTIGA E A MAIOR VENCEDORA DA HISTÓRIA DA F1</p>
+      </div>
     </div>
   </div>
 
-  <div class="container-fluid numbers">
+  <div class="container-fluid numbers d-flex flex-column justify-content-center bg-secondary">
     <div class="row text-center">
       <div class="col-sm col1">
         <p class="h1 title-numb">16</p>
@@ -72,87 +73,92 @@
   </div>
 
   <!-- Container 6 -->
-  <div class="container-fluid container-00 container-06">
-    <div class="container container-ferrari-desc">
-      <p class="ferrari-desc">
-        A Ferrari é a equipe mais vitoriosa e bem-sucedida da história da F1. Fundada por Enzo Ferrari em 1929, está
-        presente na Formula 1 desde sua temporada de estreia (1950) até os dias atuais, sendo a única equipe a ter
-        competido em todas as temporadas do mundial. Atualmente, a Ferrari conta com o chefe de equipe Frédéric Vasseur
-        e com os pilotos Charles Leclerc e Carlos Sainz Jr.
-      </p>
+  <div class="container-00 container-06">
+    <div class="container-fluid background">
+      <div class="container container-ferrari-desc">
+        <p class="ferrari-desc">
+          A Ferrari é a equipe mais vitoriosa e bem-sucedida da história da F1. Fundada por Enzo Ferrari em 1929, está
+          presente na Formula 1 desde sua temporada de estreia (1950) até os dias atuais, sendo a única equipe a ter
+          competido em todas as temporadas do mundial. Atualmente, a Ferrari conta com o chefe de equipe Frédéric
+          Vasseur
+          e com os pilotos Charles Leclerc e Carlos Sainz Jr.
+        </p>
+      </div>
     </div>
   </div>
 
   <!-- Carousel Drivers -->
   <div>
-    <p class="h1 text-center">NOSSOS PILOTOS NA F1 EM 2023</p>
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
+        <p class="h1 text-center p-4 m-0 bg-secondary">NOSSOS PILOTOS NA F1 EM 2023</p>
         <div class="carousel-item active container-00 carousel-01" data-bs-interval="1000000">
-          <div class="container team-historic">
-            <p class="subtitle-historic">HISTÓRICO</p>
-            <p class="h3 title-name">CHARLES LECLERC</p>
-            <p>Monegasco de 25 anos, ingressou na academia de pilotos da Ferrari em 2016, mesmo ano em que foi campeão
-              da GP3 Series. No ano seguinte, conquistou o título da Formula 2. Ambos os títulos foram conquistados em
-              seu ano de estréia pelas categorias, algo que é muito difícil de se conseguir. Em 2018, ingressou na
-              Formula 1 pela equipe Sauber, onde fez uma ótima temporada de estréia, já sendo promovido para a Ferrari
-              em 2019. Possui contrato com a equipe até o final de 2024.</p>
-            <table class="table" id="width-table">
-              <tbody>
-                <tr>
-                  <td>GP'S DISPUTADOS NA F1</td>
-                  <td class="text-end">120</td>
-                </tr>
+          <div class="background">
+            <div class="container team-historic">
+              <p class="h3 title-name">CHARLES LECLERC</p>
+              <p>Monegasco de 25 anos, ingressou na academia de pilotos da Ferrari em 2016, mesmo ano em que foi campeão
+                da GP3 Series. No ano seguinte, conquistou o título da Formula 2. Ambos os títulos foram conquistados em
+                seu ano de estréia pelas categorias, algo que é muito difícil de se conseguir. Em 2018, ingressou na
+                Formula 1 pela equipe Sauber, onde fez uma ótima temporada de estréia, já sendo promovido para a Ferrari
+                em 2019. Possui contrato com a equipe até o final de 2024.</p>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td class="bg-transparent text-light">GP'S DISPUTADOS NA F1</td>
+                    <td class="text-end bg-transparent text-light">120</td>
+                  </tr>
 
-                <tr>
-                  <td>TEMPORADAS NA F1</td>
-                  <td class="text-end">2018 - PRESENTE</td>
-                </tr>
+                  <tr>
+                    <td class="bg-transparent text-light">TEMPORADAS NA F1</td>
+                    <td class="text-end bg-transparent text-light">2018 - PRESENTE</td>
+                  </tr>
 
-                <tr>
-                  <td>VITÓRIAS</td>
-                  <td class="text-end">5</td>
-                </tr>
+                  <tr>
+                    <td class="bg-transparent text-light">VITÓRIAS</td>
+                    <td class="text-end bg-transparent text-light">5</td>
+                  </tr>
 
-                <tr>
-                  <td>POLE POSITIONS</td>
-                  <td class="text-end">20</td>
-                </tr>
-              </tbody>
+                  <tr>
+                    <td class="bg-transparent text-light">POLE POSITIONS</td>
+                    <td class="text-end bg-transparent text-light">20</td>
+                  </tr>
+                </tbody>
 
-            </table>
+              </table>
+            </div>
           </div>
         </div>
         <div class="carousel-item container-00 carousel-02" data-bs-interval="1000000">
-          <div class="container team-historic">
-            <p class="subtitle-historic">HISTÓRICO</p>
-            <p class="h3 title-name">CARLOS SAINZ JR.</p>
-            <p>Espanhol de 29 anos, estreou na Formula 1 em 2015 pela Toro Rosso. Em 2018 Sainz foi para a equipe
-              Renault, no ano seguinte mudou para a McLaren e então, desde 2021 é piloto da Ferrari, com contrato
-              previsto até o final de 2024.</p>
-            <table class="table" id="width-table">
-              <tbody>
-                <tr>
-                  <td>GP'S DISPUTADOS NA F1</td>
-                  <td class="text-end">180</td>
-                </tr>
+          <div class="background">
+            <div class="container team-historic">
+              <p class="h3 title-name">CARLOS SAINZ JR.</p>
+              <p>Espanhol de 29 anos, estreou na Formula 1 em 2015 pela Toro Rosso. Em 2018 Sainz foi para a equipe
+                Renault, no ano seguinte mudou para a McLaren e então, desde 2021 é piloto da Ferrari, com contrato
+                previsto até o final de 2024.</p>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td class="bg-transparent text-light">GP'S DISPUTADOS NA F1</td>
+                    <td class="text-end bg-transparent text-light">180</td>
+                  </tr>
 
-                <tr>
-                  <td>TEMPORADAS NA F1</td>
-                  <td class="text-end">2015 - PRESENTE</td>
-                </tr>
+                  <tr>
+                    <td class="bg-transparent text-light">TEMPORADAS NA F1</td>
+                    <td class="text-end bg-transparent text-light">2015 - PRESENTE</td>
+                  </tr>
 
-                <tr>
-                  <td>VITÓRIAS</td>
-                  <td class="text-end">2</td>
-                </tr>
+                  <tr>
+                    <td class="bg-transparent text-light">VITÓRIAS</td>
+                    <td class="text-end bg-transparent text-light">2</td>
+                  </tr>
 
-                <tr>
-                  <td>POLE POSITIONS</td>
-                  <td class="text-end">5</td>
-                </tr>
-              </tbody>
-            </table>
+                  <tr>
+                    <td class="bg-transparent text-light">POLE POSITIONS</td>
+                    <td class="text-end bg-transparent text-light">5</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -168,19 +174,21 @@
   </div>
 
   <!-- Container 7 -->
-  <div class="container-fluid container-00 container-07">
-    <p class="h1 text-center">CHEFE DE EQUIPE</p>
-    <div class="container team-historic">
-      <p class="subtitle-historic">HISTÓRICO</p>
-      <p class="h3 title-name">FRÉDÉRIC VASSEUR</p>
-      <p>Francês de 55 anos, já comandou e fez parte de diversas equipes da Formula 1. Devido a sua vasta experiência,
-        foi anunciado como novo chefe de equipe em Dezembro de 2022, substituindo Mattia Binotto que estava de saída.
-      </p>
+  <p class="h1 text-center p-4 m-0 text-light bg-secondary">CHEFE DE EQUIPE</p>
+  <div class="container-00 container-07 d-flex align-items-center">
+    <div class="container-fluid background">
+      <div class="container team-historic">
+        <p class="h3 title-name">FRÉDÉRIC VASSEUR</p>
+        <p>Francês de 55 anos, já comandou e fez parte de diversas equipes da Formula 1. Devido a sua vasta experiência,
+          foi anunciado como novo chefe de equipe em Dezembro de 2022, substituindo Mattia Binotto que estava de saída.
+        </p>
+      </div>
     </div>
   </div>
 
   <!-- Carousel Champions -->
-  <div id="carouselExampleCaptions" class="carousel slide">
+  <div id="carouselExampleCaptions" class="carousel slide carousel-slide">
+    <p class="h1 text-center p-4 bg-secondary m-0">GALERIA DE CAMPEÕES</p>
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -202,77 +210,92 @@
         aria-label="Slide 9"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../images/team/alberto-ascari.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Alberto Ascari</h5>
-          <p>1952 e 1953</p>
+      <div class="carousel-item active container-00 carousel-03">
+        <div class="background">
+          <div class="carousel-caption d-md-block">
+            <h5>Alberto Ascari</h5>
+            <p>1952 e 1953</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item container-00 carousel-04">
+        <div class="background">
+          <div class="carousel-caption d-md-block">
+            <h5>Juan Manuel Fangio</h5>
+            <p>1956</p>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="../images/team/fangio.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Juan Manuel Fangio</h5>
-          <p>1956</p>
+      <div class="carousel-item container-00 carousel-05">
+        <div class="background">
+          <div class="carousel-caption d-md-block">
+            <h5>Mike Hawthorn</h5>
+            <p>1958</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item container-00 carousel-06">
+        <div class="background">
+          <div class="carousel-caption d-md-block">
+            <h5>Phil Hill</h5>
+            <p>1961</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item container-00 carousel-07">
+        <div class="background">
+          <div class="carousel-caption d-md-block">
+            <h5>John Surtees</h5>
+            <p>1964</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item container-00 carousel-08">
+        <div class="background">
+          <div class="carousel-caption d-md-block">
+            <h5>Niki Lauda</h5>
+            <p>1975 e 1977</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item container-00 carousel-09">
+        <div class="background">
+          <div class="carousel-caption d-md-block">
+            <h5>Jody Scheckter</h5>
+            <p>1979</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item container-00 carousel-10">
+        <div class="background">
+          <div class="carousel-caption d-md-block">
+            <h5>Michael Schumacher</h5>
+            <p>2000, 2001, 2002, 2003 e 2004</p>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="../images/team/mike-hawthorn.jpeg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Mike Hawthorn</h5>
-          <p>1958</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../images/team/phil-hill.webp" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Phil Hill</h5>
-          <p>1961</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../images/team/john-surtees.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>John Surtees</h5>
-          <p>1964</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../images/team/lauda.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Niki Lauda</h5>
-          <p>1975 e 1977</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../images/team/jody-scheckter.avif" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Jody Scheckter</h5>
-          <p>1979</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../images/team/schumacher.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Michael Schumacher</h5>
-          <p>2000, 2001, 2002, 2003 e 2004</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../images/team/kimi-raikkonen.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Kimi Raikkonen</h5>
-          <p>2007</p>
+      <div class="carousel-item container-00 carousel-11">
+        <div class="background">
+          <div class="carousel-caption d-md-block">
+            <h5>Kimi Raikkonen</h5>
+            <p>2007</p>
+          </div>
         </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+      <span class="visually-hidden">Anterior</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+      <span class="visually-hidden">Próximo</span>
     </button>
   </div>
 
