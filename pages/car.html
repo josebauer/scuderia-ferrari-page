@@ -9,6 +9,9 @@
   <!-- CSS Bootstrap -->
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
 
+  <!-- Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- Favicon -->
   <link rel="shortcut icon" href="../images/favicon-ferrari.png" type="image/x-icon">
 
@@ -38,7 +41,7 @@
                     EQUIPE</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" id="nav-item-2" href="car.html">NOSSO CARRO</a>
+                  <a class="nav-link active" id="nav-item-2" href="./car.html">NOSSO CARRO</a>
                 </li>
               </ul>
             </div>
@@ -48,7 +51,8 @@
     </div>
 
     <div class="container-fluid background">
-      <div class="container text-center title-content d-flex flex-column justify-content-center container-08-content">
+      <div class="container text-center title-content d-flex flex-column justify-content-center container-08-content" data-aos="fade-up"
+      data-aos-duration="1500">
         <p class="h1 title-car">SF-23</p>
         <p class="h5 subtitle-car">NOSSO CARRO DA F1 EM 2023</p>
       </div>
@@ -56,39 +60,39 @@
   </div>
 
   <div class="container-fluid text-center d-flex flex-column justify-content-center bg-black car-desc">
-    <p class="text-car-desc">O SF-23 é o nosso 73º carro a competir na F1.</p>
+    <p class="text-car-desc" data-aos="flip-down" data-aos-duration="1000">O SF-23 é o nosso 73º carro a competir na F1.</p>
   </div>
 
   <!-- Container 9 -->
   <div class="container-00 container-09">
     <div class="container-fluid background d-flex flex-column justify-content-center container-left-content">
-      <div class="container">
+      <div class="container" data-aos="fade-right" data-aos-duration="2000">
         <p class="subtitle">MOTOR FERRARI</p>
         <p class="h2 title-section">1.6 V6 TURBO HÍBRIDO</p>
         <p class="subtitle">A UNIDADE DE POTÊNCIA POSSUI DIVERSOS SISTEMAS, SENDO ELES:</p>
         <table class="table table-text">
           <tbody>
-            <tr>
+            <tr data-aos="fade-right" data-aos-duration="1500">
               <td class="bg-transparent text-light">ICE</td>
               <td class="text-end bg-transparent text-light">MOTOR DE COMBUSTÃO INTERNA</td>
             </tr>
-            <tr>
+            <tr data-aos="fade-right" data-aos-duration="1200">
               <td class="bg-transparent text-light">MGU-K</td>
-              <td class="text-end bg-transparent text-light">MOTOR GERADOR DE ENERGIA  SINÉTICA</td>
+              <td class="text-end bg-transparent text-light">MOTOR GERADOR DE ENERGIA SINÉTICA</td>
             </tr>
-            <tr>
+            <tr data-aos="fade-right" data-aos-duration="1500">
               <td class="bg-transparent text-light">MGU-H</td>
               <td class="text-end bg-transparent text-light">MOTOR GERADOR DE ENERGIA TÉRMICA</td>
             </tr>
-            <tr>
+            <tr data-aos="fade-right" data-aos-duration="1400">
               <td class="bg-transparent text-light">ES</td>
               <td class="text-end bg-transparent text-light">ARMAZENADOR DE ENERGIA</td>
             </tr>
-            <tr>
+            <tr data-aos="fade-right" data-aos-duration="1500">
               <td class="bg-transparent text-light">ECU</td>
               <td class="text-end bg-transparent text-light">UNIDADE DE CONTROLE ELETRÔNICO</td>
             </tr>
-            <tr>
+            <tr data-aos="fade-right" data-aos-duration="1600">
               <td class="bg-transparent text-light">TC</td>
               <td class="text-end bg-transparent text-light">TURBO COMPRESSOR</td>
             </tr>
@@ -102,10 +106,11 @@
   <!-- Container 10 -->
   <div class="container-00 container-10">
     <div class="container-fluid background container-right-content">
-      <div class="container grid-right">
+      <div class="container grid-right" data-aos="fade-left" data-aos-duration="1500">
         <p class="subtitle">DESENVOLVIMENTO DO CARRO</p>
         <p class="h2 title-section">ATUALIZAÇÕES</p>
-        <p class="subtitle">DURANTE A TEMPORADA, SEMPRE BUSCAMOS EVOLUIR O CARRO E DEIXÁ-LO CADA VEZ MELHOR. TRAZENDO ATUALIZAÇÕES CONSTANTES DE PERFORMANCE, JÁ PENSANDO NO CARRO DO PRÓXIMO ANO.</p>
+        <p class="subtitle">DURANTE A TEMPORADA, SEMPRE BUSCAMOS EVOLUIR O CARRO E DEIXÁ-LO CADA VEZ MELHOR. TRAZENDO
+          ATUALIZAÇÕES CONSTANTES DE PERFORMANCE, JÁ PENSANDO NO CARRO DO PRÓXIMO ANO.</p>
       </div>
     </div>
   </div>
@@ -113,7 +118,7 @@
   <!-- Container 11 -->
   <div class="container-00 container-11">
     <div class="container-fluid background d-flex flex-column justify-content-center container-left-content">
-      <div class="container">
+      <div class="container" data-aos="fade-right" data-aos-duration="1500">
         <p class="subtitle">PINTURA</p>
         <p class="h2 title-section">TEMPORADA 2023</p>
         <p class="subtitle">PINTURA CLÁSSICA VERMELHA, COM DETALHES EM FIBRA DE CARBONO</p>
@@ -124,7 +129,7 @@
   <!-- Container 12 -->
   <div class="container-00 container-12">
     <div class="container-fluid background container-right-content">
-      <div class="container grid-right">
+      <div class="container grid-right" data-aos="fade-left" data-aos-duration="1500">
         <p class="subtitle">PINTURA ESPECIAL</p>
         <p class="h2 title-section">GP DE MONZA DE 2023</p>
         <p class="subtitle">USADA EM HOMENAGEM AO 499P, QUE VENCEU AS 24H DE LE MANS ESSE ANO</p>
@@ -141,6 +146,12 @@
 
   <!-- Script Bootstrap -->
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- Script Animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <!-- Script Scroll -->
   <script src="../js/index.js"></script>
