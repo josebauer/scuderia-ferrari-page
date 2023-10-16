@@ -60,7 +60,7 @@
   font-size: 80px;
   font-family: "Uniwars W00 Regular", sans-serif;
   font-style: italic;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .title-content {
@@ -82,7 +82,7 @@
 .ferrari-desc {
   font-size: 22px;
   width: 640px;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 .container-ferrari-desc {
@@ -162,5 +162,9 @@
   .ferrari-desc {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .small-text {
+    font-size: 14px;
   }
 }

@@ -1,11 +1,18 @@
-@import url("https://db.onlinewebfonts.com/c/efa6b62b9f14c00a8449fe121136f553?family=Haulage+Commercial+W00+Bold+It");
-@import url("https://db.onlinewebfonts.com/c/22eec90baaf9b2bb4097b075900767f2?family=Uniwars+W00+Regular");
 * {
   color: #FFF;
 }
 
 div {
   scroll-margin-top: 5rem;
+}
+
+#loading {
+  background-color: #000;
+  height: 100vh;
+}
+#loading img {
+  margin-top: 40vh;
+  width: 50px;
 }
 
 .background {
@@ -193,7 +200,7 @@ div {
   font-size: 80px;
   font-family: "Uniwars W00 Regular", sans-serif;
   font-style: italic;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .title-content {
@@ -213,7 +220,7 @@ div {
 .ferrari-desc {
   font-size: 22px;
   width: 640px;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 .container-ferrari-desc {
@@ -278,6 +285,9 @@ div {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+  .small-text {
+    font-size: 14px;
+  }
 }
 .container-00.container-08 {
   background-image: url(".././images/car/sf23-01.jpg");
@@ -312,7 +322,6 @@ div {
   height: 25vh;
 }
 .car-desc .text-car-desc {
-  color: #d8d8d8;
   font-weight: 400;
   font-size: 16px;
 }

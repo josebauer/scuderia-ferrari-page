@@ -6,8 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scuderia Ferrari - A Equipe</title>
 
+  <!-- Font Uniwars -->
+  <link href="https://db.onlinewebfonts.com/c/22eec90baaf9b2bb4097b075900767f2?family=Uniwars+W00+Regular" rel="stylesheet">
+
   <!-- CSS Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <!-- Animation CSS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -55,11 +59,16 @@
         data-aos-duration="1500">
         <p class="h1 title-ferrari">SCUDERIA FERRARI</p>
         <p class="h5 subtitle-ferrari">A EQUIPE MAIS ANTIGA E A MAIOR VENCEDORA DA HISTÓRIA DA F1</p>
+        <div class="container text-center mt-5">
+          <a href="#statistics">
+            <img src="../images/home/arrow-down.gif" alt="Seta para baixo" class="mt-1 arrow-down">
+          </a>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid numbers d-flex flex-column justify-content-center bg-black">
+  <div class="container-fluid numbers d-flex flex-column justify-content-center bg-black" id="statistics">
     <div class="row text-center">
       <div class="col-sm col1">
         <p class="h1 title-numb" data-aos="flip-left" data-aos-duration="1200">16</p>
@@ -80,7 +89,7 @@
   <div class="container-00 container-06">
     <div class="container-fluid background">
       <div class="container container-ferrari-desc">
-        <p class="ferrari-desc" data-aos="fade-left" data-aos-duration="1500">
+        <p class="ferrari-desc" data-aos="fade-up" data-aos-duration="1500">
           A Ferrari é a equipe mais vitoriosa e bem-sucedida da história da F1. Fundada por Enzo Ferrari em 1929, está
           presente na Formula 1 desde sua temporada de estreia (1950) até os dias atuais, sendo a única equipe a ter
           competido em todas as temporadas do mundial. Atualmente, a Ferrari conta com o chefe de equipe Frédéric
@@ -95,42 +104,43 @@
   <div>
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
-        <div class="bg-black py-4">
-          <p class="h1 text-center">NOSSOS PILOTOS NA F1 EM 2023</p>
+        <div class="container-fluid bg-black py-4">
+          <p class="h1 text-center m-0">NOSSOS PILOTOS NA F1 EM 2023</p>
         </div>
         <div class="carousel-item active container-00 carousel-01" data-bs-interval="1000000">
           <div class="background">
             <div class="container team-historic" data-aos="fade-right" data-aos-duration="2000">
               <p class="h3 title-name">CHARLES LECLERC</p>
-              <p>Monegasco de 25 anos, ingressou na academia de pilotos da Ferrari em 2016, mesmo ano em que foi campeão
-                da GP3 Series. No ano seguinte, conquistou o título da Formula 2. Ambos os títulos foram conquistados em
+              <p class="small-text">Monegasco de 25 anos, ingressou na academia de pilotos da Ferrari em 2016, mesmo ano em que foi
+                campeão
+                da GP3 Series. No ano seguinte, conquistou o título da Formula 2. Ambos os títulos foram conquistados
+                em
                 seu ano de estréia pelas categorias, algo que é muito
                 difícil de se conseguir. Em 2018, ingressou na Formula 1 pela equipe Sauber, onde fez uma ótima
                 temporada de estréia, já sendo promovido para a Ferrari em 2019. Possui contrato com a equipe até o
                 final de 2024.</p>
-              <table class="table">
+              <table class="table small-text" data-aos="fade-right" data-aos-duration="1500">
                 <tbody>
-                  <tr data-aos="fade-right" data-aos-duration="1500">
+                  <tr>
                     <td class="bg-transparent text-light">GP'S DISPUTADOS NA F1</td>
                     <td class="text-end bg-transparent text-light">120</td>
                   </tr>
 
-                  <tr data-aos="fade-right" data-aos-duration="1200">
+                  <tr>
                     <td class="bg-transparent text-light">TEMPORADAS NA F1</td>
                     <td class="text-end bg-transparent text-light">2018 - PRESENTE</td>
                   </tr>
 
-                  <tr data-aos="fade-right" data-aos-duration="1500">
+                  <tr>
                     <td class="bg-transparent text-light">VITÓRIAS</td>
                     <td class="text-end bg-transparent text-light">5</td>
                   </tr>
 
-                  <tr data-aos="fade-right" data-aos-duration="1400">
+                  <tr>
                     <td class="bg-transparent text-light">POLE POSITIONS</td>
                     <td class="text-end bg-transparent text-light">20</td>
                   </tr>
                 </tbody>
-
               </table>
             </div>
           </div>
@@ -142,7 +152,7 @@
               <p>Espanhol de 29 anos, estreou na Formula 1 em 2015 pela Toro Rosso. Em 2018 Sainz foi para a equipe
                 Renault, no ano seguinte mudou para a McLaren e então, desde 2021 é piloto da Ferrari, com contrato
                 previsto até o final de 2024.</p>
-              <table class="table">
+              <table class="table small-text">
                 <tbody>
                   <tr>
                     <td class="bg-transparent text-light">GP'S DISPUTADOS NA F1</td>
@@ -181,15 +191,17 @@
   </div>
 
   <!-- Container 7 -->
-  <div class="bg-black py-4">
-    <p class="h1 text-center">CHEFE DE EQUIPE</p>
+  <div class="container-fluid bg-black py-4">
+    <p class="h1 text-center m-0">CHEFE DE EQUIPE</p>
   </div>
   <div class="container-00 container-07 d-flex align-items-center">
     <div class="container-fluid background">
       <div class="container team-historic" data-aos="fade-right" data-aos-duration="1500">
         <p class="h3 title-name">FRÉDÉRIC VASSEUR</p>
-        <p>Francês de 55 anos, já comandou e fez parte de diversas equipes da Formula 1. Devido a sua vasta experiência,
-          foi anunciado como novo chefe de equipe em Dezembro de 2022, substituindo Mattia Binotto que estava de saída.
+        <p>Francês de 55 anos, já comandou e fez parte de diversas equipes da Formula 1. Devido a sua vasta
+          experiência,
+          foi anunciado como novo chefe de equipe em Dezembro de 2022, substituindo Mattia Binotto que estava de
+          saída.
         </p>
       </div>
     </div>
@@ -197,8 +209,8 @@
 
   <!-- Carousel Champions -->
   <div id="carouselExampleCaptions" class="carousel slide carousel-slide">
-    <div class="bg-black py-4">
-      <p class="h1 text-center">GALERIA DE CAMPEÕES</p>
+    <div class="container-fluid bg-black py-4">
+      <p class="h1 text-center m-0">GALERIA DE CAMPEÕES</p>
     </div>
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -318,7 +330,9 @@
   </footer>
 
   <!-- Script Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
   <!-- Script Animation -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
