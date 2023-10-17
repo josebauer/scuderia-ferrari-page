@@ -1,6 +1,7 @@
-# Scuderia Ferrari
+<img src="./images/readme/ferrari-banner.jpg">
+<h1 align="center">Scuderia Ferrari</h1>
 
-Site fictício da Scuderia Ferrari na Formula 1. Onde mostra um pouco sobre o carro e a equipe na temporada de 2023, além de algumas estatísticas históricas do time.
+<p align="center">Site fictício da Scuderia Ferrari na Formula 1. Onde mostra um pouco sobre o carro e a equipe na temporada de 2023, além de algumas estatísticas históricas do time.</p>
 
 ## 🚀 Objetivos
 
@@ -11,7 +12,7 @@ Praticar e aprimorar habilidades de desenvolvimento web, unindo com a paixão pe
 - HTML5
 - CSS3
 - Bootstrap
-- Sass
+- Sass (scss)
 - JavaScript (Apenas para mudança dinâmica na classe do navbar)
 
 ## ⚙️ Features
